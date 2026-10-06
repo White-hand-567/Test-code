@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cảnh Đẹp – Ảnh danh lam thắng cảnh</title>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef2ef;--surface:#fff;--ink:#12202b;--mute:#5b6b76;--line:#d3dcd9;--accent:#1d7a8c;--accent-ink:#fff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1a21;--surface:#16252e;--ink:#e7eff0;--mute:#9db0b6;--line:#2a3d47;--accent:#4fb3c6;--accent-ink:#06222a}}
+:root[data-theme="dark"]{--bg:#0e1a21;--surface:#16252e;--ink:#e7eff0;--mute:#9db0b6;--line:#2a3d47;--accent:#4fb3c6;--accent-ink:#06222a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.55 'Be Vietnam Pro',system-ui,sans-serif}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+svg,img{display:block;width:100%;height:100%;object-fit:cover}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding:10px 20px}
+.logo{font-weight:800;font-size:20px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;margin-right:auto}
+.logo svg{width:28px;height:28px}
+#q{order:3;flex:1 1 100%;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:9px 16px}
+.btn{background:var(--accent);color:var(--accent-ink);border:0;border-radius:999px;padding:9px 18px;font-weight:700}
+.ghost{background:transparent;border:1px solid var(--line);color:var(--ink);font-weight:500}
+main{max-width:1240px;margin:0 auto;padding:18px 20px 40px}
+.hero{position:relative;display:block;width:100%;aspect-ratio:21/9;min-height:250px;border:0;padding:0;border-radius:18px;overflow:hidden;text-align:left;color:#fff}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(8,16,22,.78),rgba(8,16,22,0) 62%)}
+.hero .txt{position:absolute;left:24px;right:24px;bottom:20px;z-index:1}
+.hero h1{margin:0 0 4px;font-size:clamp(24px,4.4vw,44px);line-height:1.12;font-weight:800;max-width:18em}
+.hero p{margin:0;opacity:.9}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:20px 0 16px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-right:auto}
+.chip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 15px}
+.chip.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+#count{color:var(--mute);font-size:14px}
+select{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:6px 10px}
+#grid{columns:1;column-gap:16px}
+@media(min-width:560px){#grid{columns:2}}
+@media(min-width:900px){#grid{columns:3}}
+@media(min-width:1200px){#grid{columns:4}}
+.card{break-inside:avoid;margin:0 0 18px}
+.thumb{display:block;width:100%;padding:0;border:0;border-radius:10px;overflow:hidden;background:var(--line);transition:transform .2s}
+.thumb:hover{transform:translateY(-3px)}
+.meta{display:flex;justify-content:space-between;gap:8px;padding:8px 2px 0}
+.meta h3{margin:0;font-size:15px;line-height:1.3;font-weight:700}
+.meta p{margin:0;font-size:13px;color:var(--mute)}
+.like{border:0;background:none;color:var(--mute);font-size:14px;white-space:nowrap;padding:2px 4px;align-self:flex-start}
+.like.on{color:#d6455d;font-weight:700}
+.empty{column-span:all;color:var(--mute);padding:40px 0;text-align:center}
+.empty button{background:none;border:0;color:var(--accent);text-decoration:underline;padding:0}
+footer{max-width:1240px;margin:0 auto;padding:0 20px 28px;color:var(--mute);font-size:13px}
+dialog{border:0;border-radius:18px;padding:0;width:min(940px,94vw);max-height:92vh;background:var(--surface);color:var(--ink);overflow:auto}
+dialog::backdrop{background:rgba(8,16,22,.62)}
+.x{position:absolute;top:10px;right:10px;z-index:2;width:36px;height:36px;border-radius:50%;border:0;background:rgba(8,16,22,.6);color:#fff;font-size:20px;line-height:1}
+.dwrap{display:grid;position:relative}
+@media(min-width:760px){.dwrap{grid-template-columns:1.45fr 1fr}}
+.dimg{max-height:80vh;overflow:hidden;background:var(--line)}
+.dinfo{padding:24px}
+.dinfo h2{margin:0 0 4px;font-size:24px;line-height:1.2}
+.loc,.by{margin:0;color:var(--mute);font-size:14px}
+.dinfo .desc{margin:14px 0}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+.tag{border:0;background:var(--bg);border-radius:6px;padding:3px 10px;font-size:13px}
+.rel{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:20px}
+.rel button{padding:0;border:0;border-radius:8px;overflow:hidden;aspect-ratio:1}
+#up{padding:24px;position:relative}
+#up h2{margin:0 0 14px}
+#drop{display:grid;place-items:center;min-height:150px;border:2px dashed var(--line);border-radius:12px;text-align:center;color:var(--mute);cursor:pointer;overflow:hidden;position:relative}
+#drop input{position:absolute;inset:0;opacity:0;cursor:pointer}
+#prev{display:none;max-height:260px;object-fit:contain}
+#drop.has{border-style:solid}#drop.has #prev{display:block}#drop.has span{display:none}
+.f{display:grid;gap:4px;margin-top:12px;font-size:14px;font-weight:500}
+.f input,.f select,.f textarea{border:1px solid var(--line);background:var(--bg);border-radius:8px;padding:9px 12px;font-weight:400}
+.row{display:grid;gap:12px}
+@media(min-width:560px){.row{grid-template-columns:1fr 1fr}}
+#err{color:#d6455d;min-height:1.4em;margin:10px 0 0;font-size:14px}
+#toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translate(-50%,30px);background:var(--ink);color:var(--bg);padding:10px 18px;border-radius:999px;opacity:0;pointer-events:none;transition:.25s;z-index:20}
+#toast.show{opacity:1;transform:translate(-50%,0)}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="var(--accent)"/><path d="M4 25l9-14 5 8 3-4 7 10z" fill="var(--accent-ink)"/><circle cx="23" cy="9" r="3" fill="var(--accent-ink)"/></svg>Cảnh Đẹp</div>
+  <button class="btn ghost" id="theme" aria-label="Đổi giao diện sáng/tối">◐</button>
+  <button class="btn" data-act="upload">Đăng ảnh</button>
+  <input id="q" type="search" placeholder="Tìm địa điểm hoặc thẻ, ví dụ: Hạ Long, hoàng hôn" aria-label="Tìm kiếm">
+</header>
+<main>
+  <button class="hero" id="hero" aria-label="Xem ảnh nổi bật"></button>
+  <div class="bar">
+    <div class="chips" id="chips"></div>
+    <span id="count"></span>
+    <select id="sort" aria-label="Sắp xếp"><option value="new">Mới nhất</option><option value="like">Nhiều thích nhất</option></select>
+  </div>
+  <section id="grid" aria-live="polite"></section>
+</main>
+<footer>Ảnh mẫu là tranh minh họa vẽ bằng mã. Ảnh bạn đăng được lưu trong trình duyệt của bạn, chưa gửi lên máy chủ.</footer>
+
+<dialog id="detail" aria-label="Chi tiết ảnh"><button class="x" data-close aria-label="Đóng">×</button><div class="dwrap" id="dbody"></div></dialog>
+
+<dialog id="upload" aria-label="Đăng ảnh">
+  <form id="up">
+    <button type="button" class="x" data-close aria-label="Đóng">×</button>
+    <h2>Đăng ảnh mới</h2>
+    <label id="drop"><span>Bấm hoặc kéo ảnh vào đây<br>JPG, PNG, WebP</span><img id="prev" alt="Xem trước ảnh"><input type="file" id="file" accept="image/*"></label>
+    <label class="f">Tiêu đề<input id="f-title" required maxlength="80"></label>
+    <div class="row">
+      <label class="f">Địa điểm<input id="f-place" required maxlength="80" placeholder="Ví dụ: Sa Pa, Lào Cai"></label>
+      <label class="f">Danh mục<select id="f-cat"></select></label>
+    </div>
+    <label class="f">Thẻ (cách nhau bằng dấu phẩy)<input id="f-tags" placeholder="bình minh, sương mù"></label>
+    <label class="f">Mô tả<textarea id="f-desc" rows="3" maxlength="400"></textarea></label>
+    <p id="err" role="alert"></p>
+    <button class="btn" type="submit">Đăng ảnh</button>
+  </form>
+</dialog>
+<div id="toast" role="status"></div>
+
+<script>
+const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm=s=>s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/đ/g,'d');
+const ST={get(k,d){try{const v=JSON.parse(localStorage.getItem(k));return v==null?d:v}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v));return true}catch(e){return false}}};
+const CATS={bien:'Biển',nui:'Núi',thanhpho:'Thành phố',disan:'Di sản',thiennhien:'Thiên nhiên'};
+const R=s=>()=>{s|=0;s=s+0x6D2B79F5|0;let t=Math.imul(s^s>>>15,1|s);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296};
+const PAL={dawn:['#f3c9a0','#fbe8cf','#f08a6b','#5f8fa6'],day:['#8cc7e6','#e6f3f1','#fff3c4','#2f86a3'],dusk:['#26335f','#d9739a','#ffb27a','#1c2a4d'],mist:['#b9c9d1','#eef2ef','#ffffff','#5e7f8b']};
+
+function scene(p,k){
+  const r=R(p.seed),W=400,H=Math.round(W/p.ratio),c=PAL[p.sky],g='g'+k+p.id;
+  const peak=(x,y,w,h,f)=>`<path d="M${x-w} ${y}Q${x-w*.5} ${y-h*.9} ${x} ${y-h}Q${x+w*.55} ${y-h*.85} ${x+w} ${y}Z" fill="${f}"/>`;
+  const ridge=(y,a,n,f)=>{let d=`M0 ${H}L0 ${y-r()*a}`;for(let i=1;i<=n;i++)d+=`L${i*W/n} ${y-r()*a}`;return `<path d="${d}L${W} ${H}Z" fill="${f}"/>`};
+  const hill=(y,a,f)=>`<path d="M0 ${H}V${y-r()*a}Q${W*.25} ${y-a-r()*a} ${W*.5} ${y}T${W} ${y-r()*a}V${H}Z" fill="${f}"/>`;
+  let o=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid slice" role="img" aria-label="${esc(p.title)}"><defs><linearGradient id="${g}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${c[0]}"/><stop offset=".8" stop-color="${c[1]}"/></linearGradient></defs><rect width="${W}" height="${H}" fill="url(#${g})"/>`;
+  o+=`<circle cx="${W*(.2+r()*.6)}" cy="${H*(.18+r()*.18)}" r="${22+r()*12}" fill="${c[2]}" opacity=".9"/>`;
+  const K=p.kind;
+  if(K==='karst'){
+    [['#8fb0b3',.68],['#5d8a8f',.7],['#33605f',.72]].forEach(([f,y])=>{for(let i=0,n=3+(r()*2|0);i<n;i++)o+=peak(r()*W,H*y,26+r()*26,H*(.14+r()*.22),f)});
+    o+=`<rect y="${H*.66}" width="${W}" height="${H*.34}" fill="${c[3]}" opacity=".93"/>`;
+    for(let i=0;i<9;i++)o+=`<rect x="${r()*W}" y="${H*(.7+r()*.28)}" width="${20+r()*40}" height="1.5" fill="#fff" opacity=".35"/>`;
+    const bx=W*(.2+r()*.6),by=H*.8;o+=`<path d="M${bx} ${by}h26l-5 7h-16z" fill="#b8402f"/><path d="M${bx+13} ${by}v-16l9 14z" fill="#f4efe6"/>`;
+  }else if(K==='alp'){
+    [['#a9bec6',.5,.35],['#6f909c',.64,.3],['#41667a',.78,.28]].forEach(([f,y,a],j)=>{o+=ridge(H*y,H*a,6+j*2,f)});
+    o+=`<rect y="${H*.5}" width="${W}" height="${H*.16}" fill="#fff" opacity=".22"/>`;
+  }else if(K==='town'){
+    const by=H*.7;
+    for(let x=-5;x<W;){const w=22+r()*26,h=H*(.1+r()*.16),hue=20+r()*25;o+=`<rect x="${x}" y="${by-h}" width="${w}" height="${h}" fill="hsl(${hue} 45% ${30+r()*14}%)"/><path d="M${x-3} ${by-h}l${w/2+3} -10l${w/2+3} 10z" fill="hsl(${hue} 35% 22%)"/>`;x+=w+2}
+    o+=`<rect y="${by}" width="${W}" height="${H-by}" fill="${c[3]}"/><path d="M0 ${H*.1}Q${W/2} ${H*.3} ${W} ${H*.08}" stroke="#f3d9a0" fill="none" opacity=".6"/>`;
+    for(let i=0;i<9;i++){const t=i/8,y=(1-t)**2*H*.1+2*(1-t)*t*H*.3+t*t*H*.08,x=t*W;o+=`<circle cx="${x}" cy="${y+8}" r="15" fill="#ffb347" opacity=".22"/><circle cx="${x}" cy="${y+8}" r="6" fill="#ff9a3c"/>`}
+    for(let i=0;i<10;i++)o+=`<ellipse cx="${r()*W}" cy="${by+8+r()*(H-by-12)}" rx="${3+r()*6}" ry="2" fill="#ffb347" opacity=".55"/>`;
+  }else if(K==='hill'){
+    [['#a5cc90',.5,22],['#6aa176',.64,26],['#35704f',.8,24]].forEach(([f,y,a])=>{o+=hill(H*y,a,f)});
+    for(let i=0;i<16;i++){const x=r()*W,y=H*(.8+r()*.17),h=16+r()*20;o+=`<path d="M${x} ${y-h}l${h*.3} ${h*.6}h${-h*.6}zM${x} ${y-h*.6}l${h*.4} ${h*.6}h${-h*.8}z" fill="#1c4a36"/>`}
+  }else{
+    o+=`<rect y="${H*.52}" width="${W}" height="${H*.3}" fill="${c[3]}"/>`;
+    for(let i=0;i<10;i++)o+=`<rect x="${r()*W}" y="${H*(.55+r()*.25)}" width="${14+r()*36}" height="1.5" fill="#fff" opacity=".4"/>`;
+    o+=hill(H*.84,10,'#ecd6a2');
+    const tx=W*(.65+r()*.2),ty=H*.5;
+    o+=`<path d="M${tx+10} ${H}Q${tx+14} ${H*.72} ${tx} ${ty}" stroke="#6b4a2f" stroke-width="5" fill="none"/>`;
+    [-165,-125,-80,-35,5].forEach(a=>{const q=a*Math.PI/180;o+=`<path d="M${tx} ${ty}q${Math.cos(q)*26} ${Math.sin(q)*26-12} ${Math.cos(q)*52} ${Math.sin(q)*40+8}" stroke="#2f7a4a" stroke-width="5" fill="none" stroke-linecap="round"/>`});
+  }
+  return o+'</svg>';
+}
+
+const SEED=[
+[1,'Bình minh trên vịnh','Vịnh Hạ Long, Quảng Ninh','bien','karst','dawn',1.4,842,'Minh Anh','Hàng trăm đảo đá vôi nhô lên khỏi mặt nước lặng khi mặt trời vừa lên. Nên đi thuyền từ sớm để tránh đông khách.','bình minh,đảo đá,du thuyền'],
+[2,'Trên nóc nhà Đông Dương','Đỉnh Fansipan, Lào Cai','nui','alp','mist',.8,1204,'Quốc Bảo','Biển mây phủ kín các thung lũng quanh đỉnh núi cao 3.143 m. Sáng sớm thường có mây đẹp nhất.','biển mây,leo núi,sương mù'],
+[3,'Đèn lồng phố cổ','Hội An, Quảng Nam','thanhpho','town','dusk',1.3,967,'Thu Hà','Chiều muộn, dãy đèn lồng bắt đầu sáng và phản chiếu xuống sông Hoài.','đèn lồng,hoàng hôn,phố cổ'],
+[4,'Đồi thông trong sương','Đà Lạt, Lâm Đồng','thiennhien','hill','day',1.1,615,'Gia Huy','Những rặng thông xanh nối nhau trên đồi, không khí mát quanh năm.','thông,cao nguyên,đồi núi'],
+[5,'Bãi Sao buổi sớm','Phú Quốc, Kiên Giang','bien','beach','dawn',1.5,733,'Lan Phương','Cát trắng mịn và nước trong, buổi sáng gần như không có người.','biển,cát trắng,cọ'],
+[6,'Hang động và dòng sông','Tràng An, Ninh Bình','disan','karst','day',1.2,588,'Minh Anh','Di sản thế giới với những dòng sông chảy xuyên qua núi đá. Đi thuyền chừng 3 giờ qua các hang.','di sản,thuyền,núi đá'],
+[7,'Ruộng bậc thang mùa nước đổ','Sa Pa, Lào Cai','nui','hill','dawn',.85,1056,'Quốc Bảo','Tháng 5 và tháng 6, ruộng đổ nước phản chiếu bầu trời trước khi cấy lúa.','ruộng bậc thang,mùa nước đổ,tây bắc'],
+[8,'Hoàng thành lúc chiều tà','Kinh thành Huế, Thừa Thiên Huế','disan','town','dusk',.9,471,'Thu Hà','Quần thể cung điện triều Nguyễn rực lên trong ánh chiều.','cố đô,hoàng thành,kiến trúc'],
+[9,'Đường đèo bên vực sâu','Mã Pí Lèng, Hà Giang','nui','alp','dawn',1,894,'Gia Huy','Con đèo uốn lượn bên sông Nho Quế, một trong những cung đường đẹp nhất miền Bắc.','đèo,cao nguyên đá,phượt'],
+[10,'Đồi cát lúc bình minh','Mũi Né, Bình Thuận','thiennhien','beach','dawn',1.25,512,'Lan Phương','Cát đỏ và cát vàng đổi màu theo từng giờ, đẹp nhất lúc mặt trời mới lên.','đồi cát,bình minh,sa mạc'],
+[11,'Lặng gió ở Lan Hạ','Vịnh Lan Hạ, Cát Bà','bien','karst','mist',1.35,402,'Minh Anh','Vắng hơn Hạ Long, nước êm, thích hợp chèo kayak.','kayak,vịnh,sương'],
+[12,'Cầu Rồng về đêm','Đà Nẵng','thanhpho','town','dusk',1.1,689,'Gia Huy','Cầu phun lửa và nước vào tối cuối tuần.','cầu,thành phố,đêm']
+].map(a=>({id:a[0],title:a[1],place:a[2],cat:a[3],kind:a[4],sky:a[5],ratio:a[6],likes:a[7],author:a[8],desc:a[9],tags:a[10].split(','),seed:a[0]*97+13,t:1.7e12-a[0]*864e5}));
+
+let photos=SEED.concat(ST.get('cd_up',[])),liked=new Set(ST.get('cd_liked',[])),cat='all',q='',sort='new',cur=null,pending=null;
+const lk=p=>p.likes+(liked.has(p.id)?1:0);
+const fig=(p,k)=>p.src?`<img src="${p.src}" alt="${esc(p.title)}" loading="lazy">`:scene(p,k);
+const toast=m=>{const t=$('#toast');t.textContent=m;t.classList.add('show');clearTimeout(toast.h);toast.h=setTimeout(()=>t.classList.remove('show'),2600)};
+
+const card=p=>`<article class="card"><button class="thumb" data-id="${p.id}" style="aspect-ratio:${p.ratio}" aria-label="Xem ${esc(p.title)}">${fig(p,'c')}</button><div class="meta"><div><h3>${esc(p.title)}</h3><p>${esc(p.place)}</p></div><button class="like ${liked.has(p.id)?'on':''}" data-like="${p.id}" aria-pressed="${liked.has(p.id)}" aria-label="Thích">♥ ${lk(p)}</button></div></article>`;
+
+function render(){
+  const L=photos.filter(p=>(cat==='all'||p.cat===cat)&&(!q||norm([p.title,p.place,p.tags.join(' ')].join(' ')).includes(q)));
+  L.sort(sort==='like'?(a,b)=>lk(b)-lk(a):(a,b)=>b.t-a.t);
+  $('#count').textContent=L.length+' ảnh';
+  $('#grid').innerHTML=L.length?L.map(card).join(''):'<p class="empty">Chưa có ảnh phù hợp. Thử từ khóa khác hoặc <button data-act="upload">đăng ảnh về nơi này</button>.</p>';
+  $('#chips').innerHTML=[['all','Tất cả'],...Object.entries(CATS)].map(([k,v])=>`<button class="chip ${k===cat?'on':''}" data-cat="${k}" aria-pressed="${k===cat}">${v}</button>`).join('');
+}
+function openPhoto(id){
+  const p=photos.find(x=>String(x.id)===String(id));if(!p)return;cur=p;
+  const rel=photos.filter(x=>x.cat===p.cat&&x.id!==p.id).slice(0,3);
+  $('#dbody').innerHTML=`<div class="dimg" style="aspect-ratio:${p.ratio}">${fig(p,'d')}</div><div class="dinfo"><h2>${esc(p.title)}</h2><p class="loc">📍 ${esc(p.place)} · ${CATS[p.cat]}</p><p class="by">Ảnh của ${esc(p.author)}</p><p class="desc">${esc(p.desc||'Chưa có mô tả.')}</p><div class="tags">${p.tags.map(t=>`<button class="tag" data-tag="${esc(t)}">#${esc(t)}</button>`).join('')}</div><button class="btn ghost like ${liked.has(p.id)?'on':''}" data-like="${p.id}" aria-pressed="${liked.has(p.id)}">♥ Thích · ${lk(p)}</button>${rel.length?`<div class="rel">${rel.map(x=>`<button data-id="${x.id}" aria-label="Xem ${esc(x.title)}">${fig(x,'r')}</button>`).join('')}</div>`:''}</div><button class="x" data-close aria-label="Đóng">×</button>`;
+  if(!$('#detail').open)$('#detail').showModal();
+}
+function toggleLike(id){
+  const p=photos.find(x=>String(x.id)===String(id));if(!p)return;
+  liked.has(p.id)?liked.delete(p.id):liked.add(p.id);ST.set('cd_liked',[...liked]);
+  render();if($('#detail').open&&cur&&cur.id===p.id)openPhoto(p.id);
+}
+const err=m=>$('#err').textContent=m;
+
+document.addEventListener('click',e=>{
+  const t=e.target,b=s=>t.closest(s);
+  if(b('[data-close]'))return t.closest('dialog').close();
+  if(b('[data-like]'))return toggleLike(b('[data-like]').dataset.like);
+  if(b('[data-id]'))return openPhoto(b('[data-id]').dataset.id);
+  if(b('[data-cat]')){cat=b('[data-cat]').dataset.cat;return render()}
+  if(b('[data-tag]')){$('#detail').close();$('#q').value=b('[data-tag]').dataset.tag;q=norm($('#q').value);cat='all';render();return scrollTo({top:0,behavior:'smooth'})}
+  if(b('[data-act=upload]')){err('');$('#upload').showModal()}
+  if(t.tagName==='DIALOG')t.close();
+});
+$('#q').oninput=e=>{q=norm(e.target.value.trim());render()};
+$('#sort').onchange=e=>{sort=e.target.value;render()};
+$('#hero').onclick=()=>openPhoto(1);
+const h=SEED[0];
+$('#hero').innerHTML=fig(h,'h')+`<div class="txt"><h1>Những nơi đẹp nhất, qua ảnh của cộng đồng</h1><p>Ảnh nổi bật: ${esc(h.title)} – ${esc(h.place)}</p></div>`;
+$('#f-cat').innerHTML=Object.entries(CATS).map(([k,v])=>`<option value="${k}">${v}</option>`).join('');
+
+const root=document.documentElement,isDark=()=>root.dataset.theme?root.dataset.theme==='dark':matchMedia('(prefers-color-scheme:dark)').matches;
+const th=ST.get('cd_theme',null);if(th)root.dataset.theme=th;
+$('#theme').onclick=()=>{const t=isDark()?'light':'dark';root.dataset.theme=t;ST.set('cd_theme',t)};
+
+$('#file').onchange=e=>{
+  const f=e.target.files[0];err('');if(!f)return;
+  if(!f.type.startsWith('image/'))return err('Hãy chọn một tệp ảnh (JPG, PNG hoặc WebP).');
+  if(f.size>15e6)return err('Ảnh quá lớn, tối đa 15 MB.');
+  const img=new Image(),u=URL.createObjectURL(f);
+  img.onload=()=>{const s=Math.min(1,1200/Math.max(img.width,img.height)),c=document.createElement('canvas');c.width=Math.round(img.width*s);c.height=Math.round(img.height*s);c.getContext('2d').drawImage(img,0,0,c.width,c.height);pending={src:c.toDataURL('image/jpeg',.82),ratio:+(c.width/c.height).toFixed(3)};$('#prev').src=pending.src;$('#drop').classList.add('has');URL.revokeObjectURL(u)};
+  img.onerror=()=>err('Không đọc được ảnh này. Thử một tệp khác.');
+  img.src=u;
+};
+$('#up').onsubmit=e=>{
+  e.preventDefault();
+  if(!pending)return err('Hãy chọn ảnh trước khi đăng.');
+  const p={id:'u'+Date.now(),title:$('#f-title').value.trim(),place:$('#f-place').value.trim(),cat:$('#f-cat').value,ratio:pending.ratio,src:pending.src,likes:0,author:'Bạn',desc:$('#f-desc').value.trim(),tags:$('#f-tags').value.split(',').map(s=>s.trim()).filter(Boolean).slice(0,6),t:Date.now()};
+  photos.unshift(p);
+  const saved=ST.set('cd_up',photos.filter(x=>x.src));
+  e.target.reset();pending=null;$('#drop').classList.remove('has');$('#prev').removeAttribute('src');
+  $('#upload').close();cat='all';q='';$('#q').value='';render();
+  toast(saved?'Đã đăng ảnh':'Đã đăng ảnh. Bộ nhớ trình duyệt đầy nên ảnh chỉ giữ trong phiên này.');
+};
+render();
+</script>
+</body>
+</html>
